@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./imgcarousel.component.css']
 })
 export class ImgcarouselComponent implements OnInit {
-
-  constructor() { }
+  images;
+  constructor() {}
 
   ngOnInit() {
+    this.images = [944, 1011, 984].map(
+      n => `https://picsum.photos/id/${n}/900/500`
+    );
   }
-
 }
