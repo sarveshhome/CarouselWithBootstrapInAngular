@@ -1,4 +1,4 @@
-# angular-ivy-tgn5ps
+# angular ng-boostrap Carousel
 
 To add ng-bootstrap libarary
 
